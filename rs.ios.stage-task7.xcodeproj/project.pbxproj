@@ -7,28 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		533051252693535600DF9DEB /* RSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 533051242693535600DF9DEB /* RSTextField.m */; };
+		533051282693538600DF9DEB /* RSAuthButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 533051272693538600DF9DEB /* RSAuthButton.m */; };
+		5330512C2693847900DF9DEB /* RSSecureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5330512B2693847900DF9DEB /* RSSecureButton.m */; };
 		534C9318269334F90066F5FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 534C9317269334F90066F5FB /* AppDelegate.m */; };
-		534C931B269334F90066F5FB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 534C931A269334F90066F5FB /* SceneDelegate.m */; };
-		534C931E269334F90066F5FB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 534C931D269334F90066F5FB /* ViewController.m */; };
-		534C9321269334F90066F5FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534C931F269334F90066F5FB /* Main.storyboard */; };
 		534C9323269334FA0066F5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 534C9322269334FA0066F5FB /* Assets.xcassets */; };
 		534C9326269334FA0066F5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 534C9324269334FA0066F5FB /* LaunchScreen.storyboard */; };
 		534C9329269334FA0066F5FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 534C9328269334FA0066F5FB /* main.m */; };
+		534C93322693356A0066F5FB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 534C93302693356A0066F5FB /* LoginViewController.m */; };
+		534C93332693356A0066F5FB /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 534C93312693356A0066F5FB /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		533051232693535600DF9DEB /* RSTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSTextField.h; sourceTree = "<group>"; };
+		533051242693535600DF9DEB /* RSTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSTextField.m; sourceTree = "<group>"; };
+		533051262693538600DF9DEB /* RSAuthButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAuthButton.h; sourceTree = "<group>"; };
+		533051272693538600DF9DEB /* RSAuthButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAuthButton.m; sourceTree = "<group>"; };
+		5330512A2693847900DF9DEB /* RSSecureButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSecureButton.h; sourceTree = "<group>"; };
+		5330512B2693847900DF9DEB /* RSSecureButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSecureButton.m; sourceTree = "<group>"; };
 		534C9313269334F90066F5FB /* rs.ios.stage-task7.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rs.ios.stage-task7.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		534C9316269334F90066F5FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		534C9317269334F90066F5FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		534C9319269334F90066F5FB /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		534C931A269334F90066F5FB /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		534C931C269334F90066F5FB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		534C931D269334F90066F5FB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		534C9320269334F90066F5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		534C9322269334FA0066F5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		534C9325269334FA0066F5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		534C9327269334FA0066F5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		534C9328269334FA0066F5FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		534C932F2693356A0066F5FB /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		534C93302693356A0066F5FB /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		534C93312693356A0066F5FB /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		533051292693538C00DF9DEB /* Custom UIControlls */ = {
+			isa = PBXGroup;
+			children = (
+				533051232693535600DF9DEB /* RSTextField.h */,
+				533051242693535600DF9DEB /* RSTextField.m */,
+				533051262693538600DF9DEB /* RSAuthButton.h */,
+				533051272693538600DF9DEB /* RSAuthButton.m */,
+				5330512A2693847900DF9DEB /* RSSecureButton.h */,
+				5330512B2693847900DF9DEB /* RSSecureButton.m */,
+			);
+			path = "Custom UIControlls";
+			sourceTree = "<group>";
+		};
 		534C930A269334F90066F5FB = {
 			isa = PBXGroup;
 			children = (
@@ -63,17 +82,24 @@
 			children = (
 				534C9316269334F90066F5FB /* AppDelegate.h */,
 				534C9317269334F90066F5FB /* AppDelegate.m */,
-				534C9319269334F90066F5FB /* SceneDelegate.h */,
-				534C931A269334F90066F5FB /* SceneDelegate.m */,
-				534C931C269334F90066F5FB /* ViewController.h */,
-				534C931D269334F90066F5FB /* ViewController.m */,
-				534C931F269334F90066F5FB /* Main.storyboard */,
 				534C9322269334FA0066F5FB /* Assets.xcassets */,
 				534C9324269334FA0066F5FB /* LaunchScreen.storyboard */,
 				534C9327269334FA0066F5FB /* Info.plist */,
 				534C9328269334FA0066F5FB /* main.m */,
+				534C933426933DB30066F5FB /* LoginVC */,
+				533051292693538C00DF9DEB /* Custom UIControlls */,
 			);
 			path = "rs.ios.stage-task7";
+			sourceTree = "<group>";
+		};
+		534C933426933DB30066F5FB /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				534C932F2693356A0066F5FB /* LoginViewController.h */,
+				534C93302693356A0066F5FB /* LoginViewController.m */,
+				534C93312693356A0066F5FB /* LoginViewController.xib */,
+			);
+			path = LoginVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +128,7 @@
 		534C930B269334F90066F5FB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
+				BuildIndependentTargetsInParallel = NO;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					534C9312269334F90066F5FB = {
@@ -135,7 +161,7 @@
 			files = (
 				534C9326269334FA0066F5FB /* LaunchScreen.storyboard in Resources */,
 				534C9323269334FA0066F5FB /* Assets.xcassets in Resources */,
-				534C9321269334F90066F5FB /* Main.storyboard in Resources */,
+				534C93332693356A0066F5FB /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +172,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				534C931E269334F90066F5FB /* ViewController.m in Sources */,
 				534C9318269334F90066F5FB /* AppDelegate.m in Sources */,
 				534C9329269334FA0066F5FB /* main.m in Sources */,
-				534C931B269334F90066F5FB /* SceneDelegate.m in Sources */,
+				533051252693535600DF9DEB /* RSTextField.m in Sources */,
+				5330512C2693847900DF9DEB /* RSSecureButton.m in Sources */,
+				533051282693538600DF9DEB /* RSAuthButton.m in Sources */,
+				534C93322693356A0066F5FB /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		534C931F269334F90066F5FB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				534C9320269334F90066F5FB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		534C9324269334FA0066F5FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -226,7 +246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -279,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -297,11 +317,15 @@
 				DEVELOPMENT_TEAM = HCZ476YPVU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rs.ios.stage-task7/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "rs.ios.stage-task7";
+				INFOPLIST_KEY_CFBundleName = "rs.ios.stage-task7";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glebtregubov.rs-ios-stage-task7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -324,11 +348,15 @@
 				DEVELOPMENT_TEAM = HCZ476YPVU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "rs.ios.stage-task7/Info.plist";
+				INFOPLIST_KEY_CFBundleExecutable = "rs.ios.stage-task7";
+				INFOPLIST_KEY_CFBundleName = "rs.ios.stage-task7";
+				INFOPLIST_KEY_CFBundleVersion = 1;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -337,7 +365,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.glebtregubov.rs-ios-stage-task7";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
